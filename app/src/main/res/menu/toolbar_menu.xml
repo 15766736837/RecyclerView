@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add"
+        android:icon="@mipmap/ic_menu_add"
+        android:title="add"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/delete"
+        android:title="delete"
+        android:icon="@mipmap/ic_menu_delete"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/linear"
+        android:title="LinearLayout"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/grid"
+        android:title="GridLayout"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/waterfall"
+        android:title="Waterfall"
+        app:showAsAction="never"/>
+
+</menu>
